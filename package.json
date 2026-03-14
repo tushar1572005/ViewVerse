@@ -1,13 +1,22 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js project using Express.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "backend",
+    "express",
+    "api"
+  ],
+  "author": "Tushar Chaudhari",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
